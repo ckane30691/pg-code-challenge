@@ -1,0 +1,131 @@
+/* some of the fonts provided didn't work because of cors */
+/* I chose fonts that I thought were similar */
+
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: url('fonts/ProximaNova-Regular.otf')
+}
+
+@font-face {
+font-family: "Bebas Neue";
+src: url("fonts/BebasNeue.otf");
+}
+
+body {
+  font-family: 'ProximaNova-Regular';
+}
+
+.splash-header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.splash-header h1 {
+  font-size: 26px;
+}
+
+.header-links-ctnr {
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+}
+
+.splash-header a {
+  font-size: 14px;
+  display: block;
+}
+.hero-ctnr {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+
+.hero-img {
+  z-index: -1;
+  height: 700px;
+}
+
+.hero-title {
+  font-weight: 900;
+  position: absolute;
+  top: 100px;
+  left: 120px;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.hero-description {
+  position: absolute;
+  line-height: 26px;
+  left: 120px;
+  top: 250px;
+  font-size: 18px;
+}
+
+.join-today {
+  position: absolute;
+  text-align: center;
+  top: 400px;
+  left: 120px;
+  background-color: #fff;
+  font-size: 18px;
+  padding: 20px;
+  font-weight: bold;
+  width: 160px;
+}
+
+.promise-ctnr {
+  padding-bottom: 120px;
+  position: relative;
+}
+
+.promise-ctnr h1 {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 24px;
+  font-family: 'Bebas Neue';
+}
+
+.promise-list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.promise-list li {
+  width: 400px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.promise-item-ctnr h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.promise-item-ctnr p {
+  text-align: center;
+
+}
+
+.promise-img {
+  align-self: center;
+  margin: auto;
+  height: 60px;
+  width: 65px;
+}
+
+.promise-ctnr button {
+  background-color: rgb(108, 129, 126);
+  padding: 20px;
+  width: 160px;
+  position: absolute;
+  bottom: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}

@@ -24560,23 +24560,25 @@ var Splash = function (_React$Component) {
             _react2.default.createElement(
               "a",
               { href: "" },
-              "Products"
+              "PRODUCTS"
             ),
             _react2.default.createElement(
               "a",
               { href: "" },
-              "Membership"
+              "MEMBERSHIP"
             ),
             _react2.default.createElement(
               "a",
               { href: "" },
-              "Our Mission"
+              "OUR MISSION"
             )
           ),
           _react2.default.createElement(
             "h1",
             null,
-            "Public Goods"
+            "PUBLIC ",
+            _react2.default.createElement("br", null),
+            " GOODS"
           ),
           _react2.default.createElement(
             "div",
@@ -24584,37 +24586,131 @@ var Splash = function (_React$Component) {
             _react2.default.createElement(
               "a",
               { href: "" },
-              "Sign Up"
+              "SIGN UP"
             ),
             _react2.default.createElement(
               "a",
               { href: "" },
-              "Login"
+              "LOGIN"
             ),
             _react2.default.createElement(
               "a",
               { href: "" },
-              "Cart"
+              "CART"
             )
           )
         ),
         _react2.default.createElement(
           "div",
           { className: "hero-ctnr" },
+          _react2.default.createElement("img", { className: "hero-img",
+            alt: "hero image",
+            src: "https://s3.amazonaws.com/public-goods/Screen+Shot+2018-07-01+at+2.46.03+PM.png" }),
           _react2.default.createElement(
             "h1",
             { className: "hero-title" },
-            "We make healthy products, minus the unhealthy profits."
+            "We make healthy ",
+            _react2.default.createElement("br", null),
+            " products, minus the ",
+            _react2.default.createElement("br", null),
+            " unhealthy profits."
           ),
           _react2.default.createElement(
             "h2",
-            null,
-            "Care about your health and the planet, but don't want to pay the inflated price? You've come to the right place"
+            { className: "hero-description" },
+            "Care about your health and the planet, ",
+            _react2.default.createElement("br", null),
+            "but don't want to pay the inflated price? ",
+            _react2.default.createElement("br", null),
+            "You've come to the right place"
           ),
           _react2.default.createElement(
             "button",
-            null,
+            { className: "join-today" },
             "Join Today"
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "promise-ctnr" },
+          _react2.default.createElement(
+            "h1",
+            null,
+            "THE PUBLIC GOODS PROMISE"
+          ),
+          _react2.default.createElement(
+            "ul",
+            { className: "promise-list" },
+            _react2.default.createElement(
+              "li",
+              { className: "promise-item-ctnr" },
+              _react2.default.createElement("img", { className: "promise-img",
+                src: "https://s3.amazonaws.com/public-goods/Screen+Shot+2018-07-01+at+3.34.54+PM.png",
+                alt: "star" }),
+              _react2.default.createElement(
+                "h2",
+                null,
+                "Premium Products At Cost"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "We create healthy premium products\u2014 ",
+                _react2.default.createElement("br", null),
+                "starting with bathroom essentials\u2014and then ",
+                _react2.default.createElement("br", null),
+                " sell them to members with zero markup."
+              )
+            ),
+            _react2.default.createElement(
+              "li",
+              { className: "promise-item-ctnr" },
+              _react2.default.createElement("img", { className: "promise-img",
+                src: "https://s3.amazonaws.com/public-goods/Screen+Shot+2018-07-01+at+3.35.03+PM.png",
+                alt: "piggy bank" }),
+              _react2.default.createElement(
+                "h2",
+                null,
+                "Astounding Savings"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "We\u2019ve done the math, and you\u2019ll save ",
+                _react2.default.createElement("br", null),
+                " as much as $70 a month\u2014just with our ",
+                _react2.default.createElement("br", null),
+                "personal care products."
+              )
+            ),
+            _react2.default.createElement(
+              "li",
+              { className: "promise-item-ctnr" },
+              _react2.default.createElement("img", { className: "promise-img",
+                src: "https://s3.amazonaws.com/public-goods/Screen+Shot+2018-07-01+at+3.35.17+PM.png",
+                alt: "calendar" }),
+              _react2.default.createElement(
+                "h2",
+                null,
+                "Launching New Products Every Month"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "We\u2019re already developing toxin-free ",
+                _react2.default.createElement("br", null),
+                " household cleaners, baby products and ",
+                _react2.default.createElement("br", null),
+                " organic cotton linens. The more we add, ",
+                _react2.default.createElement("br", null),
+                " the more you save."
+              )
+            ),
+            _react2.default.createElement(
+              "button",
+              { className: "promise-button" },
+              "Join Today"
+            )
           )
         )
       );
